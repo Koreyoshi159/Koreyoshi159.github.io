@@ -20,37 +20,64 @@
 </head>
 
 <body>
-    <div class="nav">
-        <a class="nav-item" href="#">Home</a>
-        <a class="nav-item" href="view/profile.html">Profile</a>
-        <a class="nav-item" href="view/dashboard.html">Dashboard</a>
-        <a class="nav-item" href="view/faq.html">FAQ</a>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/hz-logo-small.jpg" width="30" height="30" class="d-inline-block align-top" alt=""
+                loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="view/profile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="view/dashboard.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="view/faq.html">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="page home">
         <a href="https://hz.nl/"><img class="hz-logo" src="img/hz-logo.png" alt="" /></a>
-        <div class="grid-container">
-            <div class="grid-item">
-                <p>The HBO level suits me because ... </p>
-                <p>
-                    Before I started at the HBO-ICT i just got my MBO diploma
-                    and with the experiance and the knowledge I already own
-                    shoud it not be that hard.
-                </p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <p>The HBO level suits me because ... </p>
+                    <p>
+                        Before I started at the HBO-ICT i just got my MBO diploma
+                        and with the experiance and the knowledge I already own
+                        shoud it not be that hard.
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <p>The study programme suits my personality because </p>
+                    <p>After I finished my MBO studie I decide to follow this course,
+                        my first thought was to learn more about how are these applications made
+                        and a higher degree is also nice.
+                    </p>
+                </div>
             </div>
-            <div class="grid-item">
-                <p>The study programme suits my personality because </p>
-                <p>After I finished my MBO studie I decide to follow this course,
-                    my first thought was to learn more about how are these applications made
-                    and a higher degree is also nice.
-                </p>
-            </div>
-            <div class="grid-item">
-                <p>What I have learned in the last couple days.</p>
-                <ol>
-                    <li>Some basic HTML</li>
-                    <li>Some basic CSS</li>
-                    <li>Some git commands</li>
-                </ol>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <p>What I have learned in the last couple days.</p>
+                    <ul>
+                        <li>Some basic HTML</li>
+                        <li>Some basic CSS</li>
+                        <li>Some git commands</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
