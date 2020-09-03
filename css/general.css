@@ -1,19 +1,24 @@
 body {
-  background-color: rgba(255, 232, 232, 0.5);
+	background-color: rgba(255, 232, 232, 0.5);
+}
+
+.container {
+	padding-top: 15px;
 }
 
 .page {
-  padding-top: 10px;
-  text-align: center;
-  font-family:"Comic Sans MS", "Comic Sans", "cursive";
+	padding-top: 10px;
+	text-align: center;
+	font-family: "Comic Sans MS", "Comic Sans", "cursive";
 }
 
 #me {
-  width: 15%;
-  height: 15%;
+	width: 25%;
+	height: auto;
 }
 
 .hz-logo {
-  width: 25%;
-  height: auto;
+	width: 25%;
+	height: auto;
+	padding-bottom: 2em;
 }
