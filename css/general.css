@@ -1,3 +1,4 @@
+/* General */
 body {
 	background-color: rgba(255, 232, 232, 0.5);
 }
@@ -12,13 +13,23 @@ body {
 	font-family: "Comic Sans MS", "Comic Sans", "cursive";
 }
 
-#me {
-	width: 25%;
-	height: auto;
-}
-
 .hz-logo {
 	width: 25%;
 	height: auto;
 	padding-bottom: 2em;
+}
+
+/* Profile page */
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url(../img/profile-background.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#me {
+	width: 25%;
+	height: auto;
 }
