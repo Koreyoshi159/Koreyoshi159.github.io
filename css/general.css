@@ -3,6 +3,14 @@ body {
 	background-color: rgba(255, 232, 232, 0.5);
 }
 
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 .container {
 	padding-top: 15px;
 }
@@ -20,16 +28,16 @@ body {
 }
 
 /* Profile page */
-.masthead {
-	height: 100vh;
-	min-height: 500px;
-	background-image: url(../img/profile-background.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
 #me {
 	width: 25%;
 	height: auto;
+}
+
+.profile-header {
+	background-image: url(../img/profile-background.jpg);
+}
+
+/* Home page */
+.home-header {
+	background-image: url(../img/home-background.jpg);
 }
