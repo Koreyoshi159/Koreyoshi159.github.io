@@ -65,6 +65,6 @@ function printTable() {
 
 function fadeBackground(){
     $(window).scroll(function() {
-        $(".top").css("opacity", 1 - $(window).scrollTop() / 550);
+        $(".top").css("opacity", 1 - $(window).scrollTop() / 350);
       });
 }
