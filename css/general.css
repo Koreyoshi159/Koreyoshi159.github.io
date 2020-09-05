@@ -19,6 +19,11 @@ body {
 	font-family: "Comic Sans MS", "Comic Sans", "cursive";
 }
 
+footer {
+	color: white;
+	background-color: black;
+}
+
 /* Home page */
 .home-header {
 	height: 33vh;
