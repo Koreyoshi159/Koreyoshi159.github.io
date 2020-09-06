@@ -70,3 +70,12 @@ footer {
 	min-height: 500px;
 	background-image: url(../img/profile-background.jpg);
 }
+
+/* Dashboard */
+.study-guide {
+	padding-top: 1em;
+}
+
+.study-guide li {
+	background: rgba(255, 160, 160, 0.5) !important;
+}
