@@ -77,6 +77,8 @@ footer {
 
 .profile-item {
 	padding: 10%;
+	max-width: 100%;
+	margin: 0;
 }
 
 .profile-item-1 {
@@ -94,10 +96,6 @@ footer {
 .hobby img {
 	height: 100px;
 	width: 100px;
-}
-
-.hobby a {
-	display: contents;
 }
 
 /* Dashboard */
