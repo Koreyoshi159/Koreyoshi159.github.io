@@ -114,7 +114,8 @@ footer {
 }
 
 .education-img-warpper {
-	min-height: 150px;
+	min-height: 190px;
+	max-height: 190px;
 	padding: 20px;
 }
 
