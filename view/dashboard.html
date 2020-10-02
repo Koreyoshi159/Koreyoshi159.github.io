@@ -20,188 +20,199 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="../img/hz-logo-small.png" class="d-inline-block align-top hz-logo-small" alt="" loading="lazy">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="profile.html">Profile</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Dashboard</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="faq.html">FAQ</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="page dashboard">
-        <div class="container">
-            <h2>Dashboard</h2>
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    aria-valuenow="0" aria-valuemin="0" aria-valuemax="60" style="width: 3%">0</div>
-                <div class="progress-bar-hidden" role="progressbar" style="width: 60%" aria-valuenow="45"
-                    aria-valuemin="45" aria-valuemax="60"></div>
-                <div class="progress-bar-marker" role="progressbar" style="width: 10%" aria-valuenow="45"
-                    aria-valuemin="45" aria-valuemax="60"></div>
+    <div id="page-container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="../img/hz-logo-small.png" class="d-inline-block align-top hz-logo-small" alt=""
+                    loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="motivation.html">My motivation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profession.html">Profession</a>
+                    </li>
+                </ul>
             </div>
-            <div class="row">
-                <div class="col-sm">
-                    <div class="study-monitor">
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Quartile</th>
-                                    <th scope="col">Course</th>
-                                    <th scope="col">EC</th>
-                                    <th scope="col">Exams</th>
-                                    <th scope="col">Grade</th>
-                                </tr>
-                            </thead>
-                            <tbody id="grade">
-                                <tr>
-                                    <td rowspan="3">1</td>
-                                    <td>Programme and Career Orientation</td>
-                                    <td>2.5</td>
-                                    <td>Assinement exam</td>
-                                    <td>NULL</td>
-                                </tr>
-                                <tr>
-                                    <td>Computer Science Basics</td>
-                                    <td>7.5</td>
-                                    <td>Written exam</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Programming Basics</td>
-                                    <td>5</td>
-                                    <td>Case study exam</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="3">2</td>
-                                    <td rowspan="2">Object Oriented Programming</td>
-                                    <td rowspan="2">10</td>
-                                    <td>Case study</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Project</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Professional Skills 1</td>
-                                    <td>2.5</td>
-                                    <td>Portfolio</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="5">3</td>
-                                    <td>Framework Project 1</td>
-                                    <td>5</td>
-                                    <td>2 Portfolio exams</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Framework Development 1</td>
-                                    <td>5</td>
-                                    <td>Case study</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>Professional Working Enviroment</td>
-                                    <td>2,5</td>
-                                    <td>Assessment</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2">Professional Skills 2</td>
-                                    <td rowspan="2">2.5</td>
-                                    <td>Portfolio exam</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>2 Written exams</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="4">4</td>
-                                    <td>Framework Project 2</td>
-                                    <td>5</td>
-                                    <td>Portfolio exam</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>framework Development 2</td>
-                                    <td>5</td>
-                                    <td>Portfolio exam</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="2">Professional Skills 3</td>
-                                    <td rowspan="2">2.5</td>
-                                    <td>Portfolio exam</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>2 Written exams</td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
+        </nav>
+        <div id="content-wrapper">
+            <div class="page dashboard">
+                <div class="container">
+                    <h2>Dashboard</h2>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="60" style="width: 3%">0</div>
+                        <div class="progress-bar-hidden" role="progressbar" style="width: 60%" aria-valuenow="45"
+                            aria-valuemin="45" aria-valuemax="60"></div>
+                        <div class="progress-bar-marker" role="progressbar" style="width: 10%" aria-valuenow="45"
+                            aria-valuemin="45" aria-valuemax="60"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="study-monitor">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Quartile</th>
+                                            <th scope="col">Course</th>
+                                            <th scope="col">EC</th>
+                                            <th scope="col">Exams</th>
+                                            <th scope="col">Grade</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="grade">
+                                        <tr>
+                                            <td rowspan="3">1</td>
+                                            <td>Programme and Career Orientation</td>
+                                            <td>2.5</td>
+                                            <td>Assinement exam</td>
+                                            <td>NULL</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Computer Science Basics</td>
+                                            <td>7.5</td>
+                                            <td>Written exam</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Programming Basics</td>
+                                            <td>5</td>
+                                            <td>Case study exam</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="3">2</td>
+                                            <td rowspan="2">Object Oriented Programming</td>
+                                            <td rowspan="2">10</td>
+                                            <td>Case study</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Project</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Professional Skills 1</td>
+                                            <td>2.5</td>
+                                            <td>Portfolio</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="5">3</td>
+                                            <td>Framework Project 1</td>
+                                            <td>5</td>
+                                            <td>2 Portfolio exams</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Framework Development 1</td>
+                                            <td>5</td>
+                                            <td>Case study</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Professional Working Enviroment</td>
+                                            <td>2,5</td>
+                                            <td>Assessment</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2">Professional Skills 2</td>
+                                            <td rowspan="2">2.5</td>
+                                            <td>Portfolio exam</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2 Written exams</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="4">4</td>
+                                            <td>Framework Project 2</td>
+                                            <td>5</td>
+                                            <td>Portfolio exam</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>framework Development 2</td>
+                                            <td>5</td>
+                                            <td>Portfolio exam</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2">Professional Skills 3</td>
+                                            <td rowspan="2">2.5</td>
+                                            <td>Portfolio exam</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2 Written exams</td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <ul class="list-group study-guide">
+                                <li class="list-group-item">
+                                    <a target="_blank" href="https://hz.nl/en/about-hz/rules-and-regulations">
+                                        The HZ Course and Examination Regulations (CER)
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a target="_blank"
+                                        href="https://hz.nl/en/secure/het-groene-woud-en/groene-woud-safety">
+                                        Implementation Regulations (IR)
+                                    </a>
+                                </li>
+                                <li class="list-group-item"><a target="_blank" href="https://learn.hz.nl/my/">Hz
+                                        Learn
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a target="_blank"
+                                        href="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app">
+                                        Teams
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a target="_blank" href="https://apps.hz.nl/angular/studievoortgang/studiestatus">
+                                        Study progress
+                                    </a>
+                                </li>
+                                <li class="list-group-item"><a target="_blank" href="https://github.com/">Github</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm">
-                    <ul class="list-group study-guide">
-                        <li class="list-group-item">
-                            <a target="_blank" href="https://hz.nl/en/about-hz/rules-and-regulations">
-                                The HZ Course and Examination Regulations (CER)
-                            </a>
-                        </li>
-                        <li class="list-group-item">
-                            <a target="_blank" href="https://hz.nl/en/secure/het-groene-woud-en/groene-woud-safety">
-                                Implementation Regulations (IR)
-                            </a>
-                        </li>
-                        <li class="list-group-item"><a target="_blank" href="https://learn.hz.nl/my/">Hz
-                                Learn
-                            </a>
-                        </li>
-                        <li class="list-group-item">
-                            <a target="_blank"
-                                href="https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app">
-                                Teams
-                            </a>
-                        </li>
-                        <li class="list-group-item">
-                            <a target="_blank" href="https://apps.hz.nl/angular/studievoortgang/studiestatus">
-                                Study progress
-                            </a>
-                        </li>
-                        <li class="list-group-item"><a target="_blank" href="https://github.com/">Github</a></li>
-                    </ul>
-                </div>
-            </div>
         </div>
+        <footer>
+            <label>Author: Hao Guo</label>
+        </footer>
     </div>
-    <footer>
-        <label>Author: Hao Guo</label>
-    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

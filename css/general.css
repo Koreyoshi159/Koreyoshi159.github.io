@@ -3,6 +3,15 @@ body {
 	background-color: rgba(255, 180, 180, 0.5);
 }
 
+#page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+#content-wrapper {
+	padding-bottom: 2.5rem;
+}
+
 .navbar {
 	background: rgba(255, 232, 236, 0.5) !important;
 }
@@ -24,7 +33,7 @@ body {
 
 .page {
 	text-align: center;
-	align-content: center;
+	justify-content: center;
 	font-family: "Comic Sans MS", "Comic Sans", "cursive";
 }
 
@@ -32,9 +41,10 @@ footer {
 	text-align: center;
 	color: white;
 	background-color: black;
-	position: relative;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
+	height: 2.5rem;
 }
 
 /* Home page */
