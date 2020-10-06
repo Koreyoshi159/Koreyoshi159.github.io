@@ -1,6 +1,10 @@
 /* Profession */
 
 .profession-header {
-	height: 50vh;
-	min-height: 500px;
+    height: 50vh;
+    min-height: 500px;
+}
+
+.profession-item {
+    padding: 10%;
 }

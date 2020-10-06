@@ -3,6 +3,7 @@
 body {
 	background-color: rgba(255, 180, 180, 0.5);
 	overflow-x: hidden;
+	margin-top: 56px;
 }
 
 #page-container {
@@ -15,7 +16,7 @@ body {
 }
 
 .navbar {
-	background: rgba(255, 232, 236, 0.5) !important;
+	background: rgba(255, 232, 236, 0.95) !important;
 }
 
 .hz-logo-small {
