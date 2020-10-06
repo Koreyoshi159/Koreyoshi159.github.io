@@ -1,0 +1,92 @@
+/* Profile page */
+
+#me {
+	width: 25%;
+	height: auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	border-radius: 20px;
+	opacity: 75%;
+}
+
+.profile-header {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url(../img/profile-background.jpg);
+}
+
+.profile-item {
+	padding: 10%;
+	max-width: 100%;
+	margin: 0;
+}
+
+.profile-item-1 {
+	background-color: rgba(255, 180, 220, 0.5);
+}
+
+.profile-item-2 {
+	background-color: rgba(255, 160, 160, 0.5);
+}
+
+.profile-item-3 {
+	background-color: rgba(255, 190, 160, 0.5);
+}
+
+.profile-item-4 {
+	background-color: rgba(255, 122, 193, 0.5);
+}
+
+.education .content,
+.work .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.education .content .educationBx,
+.work .content .workBx {
+    padding: 40px 20px;
+    background-color: rgba(255, 98, 182, 0.5);
+    color: #000;
+	max-width: 340px;
+	min-width: 340px;
+	min-height: 250px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.work .content .workBx {
+	background-color: rgba(255, 164, 89, 0.5);
+}
+
+.education .content .educationBx:hover {
+    background: rgba(255, 180, 220, 0.5);
+}
+.work .content .workBx:hover {
+background-color: rgba(255, 160, 160, 0.5);
+}
+.education .content .educationBx img,
+.work .content .workBx img {
+    max-width: 100px;
+}
+
+.education .content .educationBx h2,
+.work .content .workBx h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.education .content .educationBx h3,
+.work .content .workBx img{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hobby img {
+	height: 100px;
+	width: 100px;
+}
