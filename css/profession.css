@@ -2,13 +2,29 @@
 
 .profession-header {
     height: 50vh;
-    min-height: 500px;
 }
 
 .profession-item {
-    padding: 10%;
+    padding: 7.5%;
+}
+
+.company-title {
+    padding-bottom: 10px;
 }
 
 .profession-item-1 {
-    
+    background-color: rgb(121, 141, 255);
+}
+
+.profession-item-1 .list {
+    list-style-type: decimal;
+}
+
+.profession-item-2 {
+    background-color: rgba(255, 100, 100, 0.5);
+}
+
+img {
+    height: 250px;
+    width: auto;
 }
