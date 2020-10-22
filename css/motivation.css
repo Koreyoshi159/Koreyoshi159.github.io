@@ -1,0 +1,35 @@
+.testResult {
+    margin: auto;
+    width: 450px;
+    padding: 3px;
+    border: 2px solid #d75016;
+    background-color: #FAFAD2;
+}
+
+.testTitle {
+    font-family: "Times New Roman", "Times", "serif";
+    font-size: 1.20em;
+    font-weight: bold;
+    color: #d75116;
+}
+
+.finalResult {
+    font-family: Times New Roman, Times, serif;
+    font-size: 1em;
+    color: #5c5c5c;
+}
+
+.finalImage {
+    margin:4pt;
+    width: 150px;
+    height: 150px;
+}
+
+.testResultTwo {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.testResultTwo div {
+    padding-bottom: 10px;
+}
