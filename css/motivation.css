@@ -1,3 +1,13 @@
+.motivation-item {
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.motivation-item-3 .row{
+    margin-top: 10px;
+}
+
 .testResult {
     margin: auto;
     width: 450px;
@@ -26,6 +36,9 @@
 }
 
 .testResultTwo {
+    background-color: bisque;
+    border: solid 2px coral;
+    padding: 10px;
     margin-top: 30px;
     margin-left: 30px;
 }
