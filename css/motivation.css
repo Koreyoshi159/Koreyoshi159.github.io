@@ -1,11 +1,55 @@
-.motivation-item {
-    margin-top: 20px;
-    margin-left: 5%;
-    margin-right: 5%;
+h1, h2 {
+    padding-bottom: 20px;
 }
 
-.motivation-item-3 .row{
+.motivation-header {
+    height: 100vh;
+}
+
+.motivation-item {
+    padding: 5%;
+}
+
+.motivation-item-1 {
+    background-color: rgba(255, 127, 80, 0.5);
+}
+
+.motivation-item-1 ul {
+    text-align: left;
+}
+
+.motivation-item-2 {
+    background-color: rgba(37, 53, 83, 0.5);
+}
+
+.motivation-item-2 img {
+    max-width: 100%;
+    width: 550px;
+    height: auto;
+}
+
+.motivation-item-3 {
+    background-color: rgba(0, 54, 170, 0.5);
+}
+
+.motivation-item-4 {
+    background-color: rgba(0, 24, 129, 0.75);
+}
+
+.motivation-item-4 .row {
     margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: rgb(89, 208, 255);
+    border-radius: 5%;
+    border-color: rgb(0, 106, 155);
+}
+
+.motivation-item-5 {
+    background-color: rgb(20, 20, 20);
+    color: white;
 }
 
 .testResult {
@@ -30,7 +74,7 @@
 }
 
 .finalImage {
-    margin:4pt;
+    margin: 4pt;
     width: 150px;
     height: 150px;
 }

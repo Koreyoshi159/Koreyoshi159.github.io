@@ -11,7 +11,7 @@ function fadeBackground(){
 }
 
 function careerImageToggle() {
-    $("#showResultImageCareer").on("click", () => {
-        $(".motivation-item-3").toggle();
+    $("#showResultImageCareer").on("click", function() {
+        $(".motivation-item-4").toggle();
     })
 }
